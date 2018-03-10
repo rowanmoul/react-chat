@@ -10,35 +10,9 @@ import styles from "./ChatApp.css";
 
 class ChatApp extends Component {
     state = {
-        messages: [
-            {
-                user: "User0",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                date: new Date(Date.now())
-            },
-            {
-                user: "User1",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                date: new Date(Date.now())
-            },
-            {
-                user: "User2",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                date: new Date(Date.now())
-            },
-            {
-                user: "User3",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                date: new Date(Date.now())
-            }
-        ],
-        users: {
-            User0: "#FF00FF",
-            User1: "#FF0000",
-            User2: "#0000FF",
-            User3: "#00FF00"
-        },
-        currentUser: "User0",
+        messages: [],
+        users: {},
+        currentUser: "",
         currentInput: ""
     }
 

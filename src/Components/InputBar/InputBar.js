@@ -4,9 +4,13 @@ import styles from "./InputBar.css";
 
 const inputBar = props => (
     <div className={styles.InputBar}>
-        <label>123456789012345</label>
-        <input />
-        <button>Send</button>
+        <label style={{color: props.colour}}>{props.currentUser}</label>
+        <input
+            placeholder="What do you want to say?"
+            value={props.currentInput}
+            onChange={props.inputHandler}
+            onKeyPress={props.enterHandler}/>
+        <button onClick={props.submitHandler}>Send</button>
     </div>
 );
 

@@ -2,11 +2,15 @@ import React from "react";
 
 import styles from "./UserPanel.css";
 
-const items = new Array(1000);
-items.fill(null);
 const userPanel = props => (
     <div className={styles.UserPanel}>
-        <ul className={styles.UserList}>{items.map((_, i) => <li key={i}>User{i}</li>)}</ul>
+        <ul className={styles.UserList}>
+            {Object.keys(props.users).map(userNick =>
+                <li key={userNick} style={{color: props.users[userNick], fontWeight: userNick === props.currentUser ? "bold" : null}}>
+                    {userNick}
+                </li>
+            )}
+        </ul>
     </div>
 );
 

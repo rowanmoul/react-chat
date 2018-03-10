@@ -1,6 +1,6 @@
 .MessagePanel {
     grid-area: MessagePanel;
-    background-color: salmon;
+    background-color: #c4c4c4;
     overflow-y: auto;
 }
 
@@ -18,10 +18,11 @@
 }
 
 .MessageList li {
-    border: navy 3px solid;
+    border: 2px #d85147 solid;
     border-radius: 5px;
-    margin: 5px;
-    background-color: moccasin;
+    box-shadow: 5px 5px 5px 1px #000000a0;
+    margin: 15px 5px;
+    background-color: #eeeeee;
 }
 
 .MessageList p {

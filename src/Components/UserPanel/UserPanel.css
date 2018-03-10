@@ -1,6 +1,6 @@
 .UserPanel {
     grid-area: UserPanel;
-    background-color: slategray;
+    background-color: #2C363F;
     overflow-y: auto;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .UserList li {
-    border: navy 3px solid;
+    border: #eeeeee 5px solid;
     border-radius: 5px;
     margin: 5px;
-    background-color: moccasin;
+    background-color: #eeeeee;
 }

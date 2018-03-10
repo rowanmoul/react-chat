@@ -1,0 +1,30 @@
+.MessagePanel {
+    grid-area: MessagePanel;
+    background-color: salmon;
+    overflow-y: auto;
+}
+
+.BottomSnapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.MessageList {
+    max-height: calc(100% - 25px);
+    list-style: none;
+    padding: 0 1%;
+}
+
+.MessageList li {
+    border: navy 3px solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: moccasin;
+}
+
+.MessageList p {
+    margin-left: 4px;
+    margin-right: 4px;
+}

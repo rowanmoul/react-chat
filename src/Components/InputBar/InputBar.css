@@ -1,0 +1,22 @@
+.InputBar {
+    grid-area: InputBar;
+    background-color: sandybrown;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.InputBar label {
+    margin: auto 0;
+}
+
+.InputBar input {
+    flex-grow: 1;
+    margin: 0 5px;
+    font-size: inherit;
+}
+
+.InputBar button {
+    font-size: inherit;
+}

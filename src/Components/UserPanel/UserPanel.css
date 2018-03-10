@@ -1,0 +1,17 @@
+.UserPanel {
+    grid-area: UserPanel;
+    background-color: slategray;
+    overflow-y: auto;
+}
+
+.UserList {
+    list-style: none;
+    padding: 0 1%;
+}
+
+.UserList li {
+    border: navy 3px solid;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: moccasin;
+}
